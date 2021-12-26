@@ -596,6 +596,7 @@ footer .space-div {
 	}
 	footer {
 		height: auto;
+		overflow: hidden;
 	}
 }
 
@@ -665,9 +666,10 @@ footer .space-div {
 		height: auto;
 	}
 	footer {
-		height: auto;
-		padding: 3em 0;
-	}
+	height: auto;
+	padding: 3em 0;
+	overflow: hidden;
+}
 	.bone-transplant h3 {
 		font-size: 30px;
 	}
