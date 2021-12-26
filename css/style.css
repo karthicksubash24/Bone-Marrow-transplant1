@@ -89,6 +89,7 @@ form input {
 	width: 100%;
 	text-align: left;
 	text-indent: 10px;
+	box-sizing: border-box;
 }
 .aster_form h5 {
 	font-family: StagSans-Medium;
@@ -100,7 +101,7 @@ form input {
 }
 form textarea {
 	border: 0.87px solid #D0D0D0;
-	width: 278px;
+	width: 100%;
 	height: 72px;
 	resize: unset;
 	overflow-y: auto;
@@ -108,6 +109,7 @@ form textarea {
 	font-size: 12.22px;
 	text-indent: 10px;
 	padding-top: 10px;
+	box-sizing: border-box;
 }
 .submit {
 	color: #FFFFFF;
